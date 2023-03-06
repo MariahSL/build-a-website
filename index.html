@@ -7,19 +7,22 @@
   <title>Document</title>
 </head>
 <body>
-  
-<header>
+  <ul>
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+   </ul>  
+<header role="banner">
   <img src="images/sysk-logo.webp" alt="A photo of the Sysk logo" />
-  <nav>
+  <nav role="navigation">
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#episodes"></a>Episodes</li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/episodes"></a>Episodes</li>
     </ul>
   </nav>
 </header>
 
-<main>
-  <section>
+<main role="main">
+  <section id="you-should-know-podcast">
     <h1>You Should Know Podcast</h1> 
       <h2>About the Podcast</h2>
       
@@ -33,12 +36,11 @@
         <li>Hasbro released a special edition of Trivial Pursuit: The Stuff You Should Know Edition based on episodes from the podcast.</li>
         <li>Josh and Chuck receive over 350 pieces of fan mail a week.</li>
       </ul>
-      <a href="/about.html" aria-label="Read more about the show and hosts">Read more about the show and hosts</a>
+      <a href="#" aria-label="Read more about the show and hosts">Read more about the show and hosts</a>
   </section>
 
-  <section>
+  <section id="featured-episodes">
       <h2>Featured Episodes</h2>
-
 
       <article>
         <h3>Interesting Origins of Everday Phrases</h3>
@@ -47,11 +49,8 @@
         
         <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
 
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <a href="#" aria-label= "Learn more about the Interesting Origins of Everday Phrases">Learn more</a>
       </article>
-      
-
      
       <article> 
         <h3>The History of Fake Towns</h3>
@@ -59,11 +58,9 @@
         <img src="images/everyday-phrases.jpeg" alt="Cover of Interesting Origins of Everyday Phrases" />
         
         <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
-        
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-      </article> 
 
+        <a href="#" aria label="Learn more about The History of Fake Towns">Learn more</a>
+      </article> 
 
       <article>
         <h3>Doppelgängers: Hey you, you're me!</h3>
@@ -72,16 +69,16 @@
 
         <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <a href="#" aria-label="Learn more about Doppelgängers: Hey you, you're me!">Learn more</a>
+      
       </article>
     </section>
 
 </main>   
 
 
-<footer>
-  <small>&copy; SYSK 2023</small>
+<footer role="contentinfo">
+  <p><small>&copy; SYSK 2023</small></p>
 </footer>
   
 </body>
